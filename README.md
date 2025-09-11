@@ -234,6 +234,7 @@ classDiagram
     AsignarPersonal --> "1..1" Informe
     Usuario --> "1..1" AsignarPersonal
 
+```
 ## :clipboard: Requerimientos No Funcionales (RNF)
 | ID   | Descripción                                                                                              | Estado            |
 |------|----------------------------------------------------------------------------------------------------------|-------------------|
