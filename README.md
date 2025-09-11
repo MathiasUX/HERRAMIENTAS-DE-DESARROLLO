@@ -239,15 +239,15 @@ classDiagram
 | ID   | Descripción                                                                                              | Estado            |
 |------|----------------------------------------------------------------------------------------------------------|-------------------|
 | RNF1 | El aplicativo debe ser accesible desde diferentes dispositivos (móvil, tablet, escritorio).               | 🔄       |
-| RNF2 | El sistema debe tener un tiempo de respuesta inferior a 3 segundos para cargar cualquier página.          | :heavy_check_mark: |
-| RNF3 | El sistema debe ser capaz de manejar al menos 500 usuarios simultáneos sin degradar el rendimiento.       | :heavy_check_mark: |
-| RNF4 | El sistema debe garantizar un uptime del 99.9%.                                                          | :heavy_check_mark: |
-| RNF5 | El aplicativo debe estar disponible en varios idiomas, incluyendo español e inglés.                      | :heavy_check_mark: |
-| RNF6 | El sistema debe ser compatible con los principales navegadores web (Chrome, Firefox, Safari, Edge).       | :heavy_check_mark: |
-| RNF7 | El sistema debe contar con una política de backup automático cada 24 horas.                              | :heavy_check_mark: |
-| RNF8 | El aplicativo debe cumplir con los estándares de accesibilidad (WCAG 2.1) para usuarios con discapacidades. | :heavy_check_mark: |
-| RNF9 | El sistema debe ser escalable para soportar el crecimiento del número de usuarios y datos.                | :heavy_check_mark: |
-| RNF10| El sistema debe garantizar la seguridad mediante encriptación de datos en tránsito y reposo (HTTPS, AES). | :heavy_check_mark: |
+| RNF2 | El sistema debe tener un tiempo de respuesta inferior a 3 segundos para cargar cualquier página.          | :arrows_counterclockwise: |
+| RNF3 | El sistema debe ser capaz de manejar al menos 500 usuarios simultáneos sin degradar el rendimiento.       | :arrows_counterclockwise: |
+| RNF4 | El sistema debe garantizar un uptime del 99.9%.                                                          | :arrows_counterclockwise: |
+| RNF5 | El aplicativo debe estar disponible en varios idiomas, incluyendo español e inglés.                      | :arrows_counterclockwise: |
+| RNF6 | El sistema debe ser compatible con los principales navegadores web (Chrome, Firefox, Safari, Edge).       | :arrows_counterclockwise: |
+| RNF7 | El sistema debe contar con una política de backup automático cada 24 horas.                              | :arrows_counterclockwise: |
+| RNF8 | El aplicativo debe cumplir con los estándares de accesibilidad (WCAG 2.1) para usuarios con discapacidades. | :arrows_counterclockwise: |
+| RNF9 | El sistema debe ser escalable para soportar el crecimiento del número de usuarios y datos.                | :arrows_counterclockwise: |
+| RNF10| El sistema debe garantizar la seguridad mediante encriptación de datos en tránsito y reposo (HTTPS, AES). | :arrows_counterclockwise: |
 
 *Leyenda:*
 - :heavy_check_mark: Completado
