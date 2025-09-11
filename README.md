@@ -234,4 +234,31 @@ classDiagram
     AsignarPersonal --> "1..1" Informe
     Usuario --> "1..1" AsignarPersonal
 
+## :clipboard: Requerimientos No Funcionales (RNF)
+| ID   | Descripción                                                                                              | Estado            |
+|------|----------------------------------------------------------------------------------------------------------|-------------------|
+| RNF1 | El aplicativo debe ser accesible desde diferentes dispositivos (móvil, tablet, escritorio).               | 🔄       |
+| RNF2 | El sistema debe tener un tiempo de respuesta inferior a 3 segundos para cargar cualquier página.          | :heavy_check_mark: |
+| RNF3 | El sistema debe ser capaz de manejar al menos 500 usuarios simultáneos sin degradar el rendimiento.       | :heavy_check_mark: |
+| RNF4 | El sistema debe garantizar un uptime del 99.9%.                                                          | :heavy_check_mark: |
+| RNF5 | El aplicativo debe estar disponible en varios idiomas, incluyendo español e inglés.                      | :heavy_check_mark: |
+| RNF6 | El sistema debe ser compatible con los principales navegadores web (Chrome, Firefox, Safari, Edge).       | :heavy_check_mark: |
+| RNF7 | El sistema debe contar con una política de backup automático cada 24 horas.                              | :heavy_check_mark: |
+| RNF8 | El aplicativo debe cumplir con los estándares de accesibilidad (WCAG 2.1) para usuarios con discapacidades. | :heavy_check_mark: |
+| RNF9 | El sistema debe ser escalable para soportar el crecimiento del número de usuarios y datos.                | :heavy_check_mark: |
+| RNF10| El sistema debe garantizar la seguridad mediante encriptación de datos en tránsito y reposo (HTTPS, AES). | :heavy_check_mark: |
+
+*Leyenda:*
+- :heavy_check_mark: Completado
+- :arrows_counterclockwise: En desarrollo
+- :hourglass_flowing_sand: En espera
+
+## :clipboard: Roles y Funciones del equipo
+| ID  | Nombre del Rol       | Encargado          | Función                                                                 |
+|-----|----------------------|--------------------|-------------------------------------------------------------------------|
+| R1  | Programador Backend   | [Nombre A]         | Encargado de la lógica de negocio, bases de datos y APIs.               |
+| R2  | Programador Frontend  | [Nombre B]         | Encargado del diseño y desarrollo de la interfaz de usuario (UI).      |
+| R3  | Programador Full-Stack| [Nombre C]         | Encargado de integrar el frontend con el backend y trabajar en ambos.  |
+| R4  | Tester / QA           | [Nombre D]         | Encargado de realizar pruebas, depuración y asegurar la calidad del código.|
+
 ```
