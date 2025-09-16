@@ -109,6 +109,7 @@ El sistema tiene como objetivo mejorar la eficacia en la gestión de incidencias
 Este documento explica los pasos básicos para trabajar con **Git** y **GitHub** de forma ordenada.
 ---
 ---
+
 > [!NOTE]  
 > ## 🔹 2. Inicialización del repositorio  
 > Para iniciar y configurar tu repositorio en Git y conectarlo con GitHub, sigue estos pasos:  
