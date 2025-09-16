@@ -90,19 +90,18 @@ El sistema tiene como objetivo mejorar la eficacia en la gestión de incidencias
 ---
 > [!NOTE] 
 ## :clipboard: Requirimientos Funcionales (RF)
-| ID  | Descripción                                                                                              | Estado            |
+| ID  | Descripción                                                                                              | NOMBRE             |
 |-----|----------------------------------------------------------------------------------------------------------|-------------------|
-| RF1 | El aplicativo permite el acceso a los recursos mediante un login                                         | ✔️      |
-| RF2 | El aplicativo debe permitir la navegabilidad de los formularios mediante un menú                         | :heavy_check_mark:   |
-| RF3 | El aplicativo permite el registro de tipos de incidencias informáticas y realizar el mantenimiento correspondiente | :heavy_check_mark: |
-| RF4 | El aplicativo permite el registro de los empleados de la empresa y realizar el mantenimiento correspondiente | :heavy_check_mark: |
-| RF5 | El aplicativo permite el registro de áreas y realizar el mantenimiento correspondiente                   | :heavy_check_mark:     |
-| RF6 | El aplicativo permite el registro de una incidencia informática y realizar el mantenimiento correspondiente | :heavy_check_mark:     |
-| RF7 | El aplicativo permite asignar a un personal para la solución de la incidencia informática                 | :heavy_check_mark:   |
-| RF8 | El aplicativo permite al empleado registrar los detalles de la solución y observaciones de la incidencia solucionada | :heavy_check_mark:|
-| RF9 | El aplicativo permite realizar el seguimiento de la incidencia visualizando su estado: En proceso, Atendido, Derivado | :heavy_check_mark:        |
-| RF10| El aplicativo permite visualizar la lista de incidencias por rango de fechas                             | :heavy_check_mark:         |
-
+| RF1 | El aplicativo permite el acceso a los recursos mediante un login                                         | Jeffri Mathias   |
+| RF2 | El aplicativo debe permitir la navegabilidad de los formularios mediante un menú                         | :Jeffri Mathias   |
+| RF3 | El aplicativo permite el registro de tipos de incidencias informáticas y realizar el mantenimiento correspondiente | Jeffri Mathias |
+| RF4 | El aplicativo permite el registro de los empleados de la empresa y realizar el mantenimiento correspondiente | Jans Snider |
+| RF5 | El aplicativo permite el registro de áreas y realizar el mantenimiento correspondiente                   | Jans Snider |
+| RF6 | El aplicativo permite el registro de una incidencia informática y realizar el mantenimiento correspondiente | Jans Snider     |
+| RF7 | El aplicativo permite asignar a un personal para la solución de la incidencia informática                 | André Martín   |
+| RF8 | El aplicativo permite al empleado registrar los detalles de la solución y observaciones de la incidencia solucionada | André Martín|
+| RF9 | El aplicativo permite realizar el seguimiento de la incidencia visualizando su estado: En proceso, Atendido, Derivado | Giovanni Elber       |
+| RF10| El aplicativo permite visualizar la lista de incidencias por rango de fechas                             | Giovanni Elber
 
 ---
 ## 🚀 Flujo de trabajo en Git
