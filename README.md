@@ -86,6 +86,7 @@ El sistema tiene como objetivo mejorar la eficacia en la gestión de incidencias
 | R2  | Programador Frontend  | [Morales Dominguez, Jans Snider]         | Encargado del diseño y desarrollo de la interfaz de usuario (UI).      |
 | R3  | Programador Full-Stack| [Rodriguez Santa Cruz, André Martín]         | Encargado de integrar el frontend con el backend y trabajar en ambos.  |
 | R4  | Tester / QA           | [Virhuez Zavaleta, Giovanni Elber]         | Encargado de realizar pruebas, depuración y asegurar la calidad del código.|
+| R5 | merge  finales     |  [Rodriguez Santa Cruz, André Martín]         | Fusionar todas los para las ramas y merge final.|
 
 ---
 
