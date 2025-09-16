@@ -40,22 +40,41 @@ Este documento explica los pasos básicos para trabajar con **Git** y **GitHub**
 >       create DATABASE ucvincidencia;
 >       use ucvincidencia;         
 >       ~~~
-
-
-
-## 🔹 2. Inicialización del repositorio
-```bash
-git init
-git config --global user.name "MoralesDominguezJansSnider"
-git config --global user.email "u22330117@utp.edu.pe"
-touch README.md
-touch .gitignore
-touch LICENSE
-git status
-git add .
-git commit -m "primer commit de configuracion"
-git remote add origin https://github.com/MathiasUX/HERRAMIENTAS-DE-DESARROLLO.git
-git push -u origin master
-```
+---
+> [!NOTE]  
+> ## 🔹 2. Inicialización del repositorio  
+> Para iniciar y configurar tu repositorio en Git y conectarlo con GitHub, sigue estos pasos:  
+> 
+> 1. Inicializa el repositorio y configura tus credenciales:  
+>    ~~~bash
+>    git init
+>    git config --global user.name "MoralesDominguezJansSnider"
+>    git config --global user.email "u22330117@utp.edu.pe"
+>    ~~~  
+> 
+> 2. Crea archivos básicos para el proyecto:  
+>    ~~~bash
+>    touch README.md
+>    touch .gitignore
+>    touch LICENSE
+>    ~~~  
+> 
+> 3. Revisa el estado y añade los cambios:  
+>    ~~~bash
+>    git status
+>    git add .
+>    ~~~  
+> 
+> 4. Realiza el primer commit:  
+>    ~~~bash
+>    git commit -m "primer commit de configuracion"
+>    ~~~  
+> 
+> 5. Conecta con el repositorio remoto y sube los cambios:  
+>    ~~~bash
+>    git remote add origin https://github.com/MathiasUX/HERRAMIENTAS-DE-DESARROLLO.git
+>    git push -u origin master
+>    ~~~  
+---
 ## 🔹 3. IMAGEN DE REPOSITORIO
 ![Flujo de trabajo en Git](IMAGENES/GIT.png)
