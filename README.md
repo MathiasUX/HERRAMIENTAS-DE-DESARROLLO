@@ -152,7 +152,7 @@ Este documento explica los pasos básicos para trabajar con **Git** y **GitHub**
 ## 🔹 4. PRIMER MERGE
 ![Flujo de trabajo en Git](IMAGENES/5.png)
 ---
-## 🔹 5. PRIMER SEGUNDO MERGE 
+## 🔹 5. SEGUNDO MERGE 
 ![Flujo de trabajo en Git](IMAGENES/1.png)
 ---
 ## 🔹 6.  COMFLICTO DE MERGE
