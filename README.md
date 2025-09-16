@@ -148,4 +148,19 @@ Este documento explica los pasos básicos para trabajar con **Git** y **GitHub**
 ---
 ## 🔹 3. IMAGEN DE REPOSITORIO
 ![Flujo de trabajo en Git](IMAGENES/GIT.png)
+---
+## 🔹 4. PRIMER MERGE
+![Flujo de trabajo en Git](IMAGENES/5.png)
+---
+## 🔹 5. PRIMER SEGUNDO MERGE 
+![Flujo de trabajo en Git](IMAGENES/1.png)
+---
+## 🔹 6.  COMFLICTO DE MERGE
+![Flujo de trabajo en Git](IMAGENES/2.png)
+![Flujo de trabajo en Git](IMAGENES/3.png)
+![Flujo de trabajo en Git](IMAGENES/4.png)
+---
+## 🔹 7  SOLUCION DE COMFLICTO 
+![Flujo de trabajo en Git](IMAGENES/6.png)
+
 
