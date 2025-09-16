@@ -88,7 +88,7 @@ El sistema tiene como objetivo mejorar la eficacia en la gestión de incidencias
 | R4  | Tester / QA           | [Virhuez Zavaleta, Giovanni Elber]         | Encargado de realizar pruebas, depuración y asegurar la calidad del código.|
 
 ---
-> [!NOTE] 
+
 ## :clipboard: Requirimientos Funcionales (RF)
 | ID  | Descripción                                                                                              | NOMBRE             |
 |-----|----------------------------------------------------------------------------------------------------------|-------------------|
