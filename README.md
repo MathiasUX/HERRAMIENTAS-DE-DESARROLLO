@@ -37,7 +37,7 @@ El sistema tiene como objetivo mejorar la eficacia en la gestión de incidencias
 
 - *Base de datos*:
     - MySQL
-```
+
 ---
 ## 🔹 1. instalacion para el proyecto
 
@@ -78,7 +78,7 @@ El sistema tiene como objetivo mejorar la eficacia en la gestión de incidencias
 >       ~~~
 ---
 
-```
+
 ## :clipboard: Roles y Funciones del equipo
 | ID  | Nombre del Rol       | Encargado 💡      | Función  📏                                                                 |
 |-----|----------------------|--------------------|-------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ El sistema tiene como objetivo mejorar la eficacia en la gestión de incidencias
 | R3  | Programador Full-Stack| [Rodriguez Santa Cruz, André Martín]         | Encargado de integrar el frontend con el backend y trabajar en ambos.  |
 | R4  | Tester / QA           | [Virhuez Zavaleta, Giovanni Elber]         | Encargado de realizar pruebas, depuración y asegurar la calidad del código.|
 
-```
+
 ---
 ## 🚀 Flujo de trabajo en Git
 
