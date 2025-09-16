@@ -46,7 +46,7 @@ El sistema tiene como objetivo mejorar la eficacia en la gestión de incidencias
 >Para ejecutar el proyecto localmente, sigue los siguientes pasos:
 >1. Clona este repositorio:
 >     ~~~bash
->     git clone https://github.com/Renzito0637d/Proyect_Integrator_1.git
+>     git clone https://github.com/MathiasUX/HERRAMIENTAS-DE-DESARROLLO.git
 >     ~~~
 >2. Abre el proyecto en tu entorno de desarrollo.
 > 
