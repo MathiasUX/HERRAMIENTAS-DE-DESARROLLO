@@ -6,67 +6,40 @@
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ---
+## 📜 Descripción general del proyecto
 
-Este proyecto tiene como objetivo desarrollar una aplicación web para el mantenimiento de los incidencias informaticas, hacer un seguimito de estas para luego dar un informe de como se pudo atender la incidencia.
+Este proyecto tiene como propósito el desarrollo de una plataforma web que permita gestionar y hacer un seguimiento de las incidencias informáticas dentro de una organización. A través de esta aplicación, los usuarios podrán registrar y reportar los problemas técnicos que surjan en los sistemas, equipos o servicios informáticos, mientras que los técnicos podrán darles seguimiento hasta su resolución.
 
-## 🛠️ Características del Proyecto
+La aplicación ofrecerá una interfaz fácil de usar para crear reportes de incidencias, asignar tareas a los responsables de su atención, seguir el avance de la solución y, al final, generar informes detallados sobre el proceso de resolución, las acciones realizadas y los tiempos de intervención.
 
-- :computer: *Backend y Frontend estan mismo repositorio*  
-  Proyecto integral con backend en Spring Boot (Java) y frontend en React.
-
-- :gear: *Arquitectura RESTful con Spring Boot*  
-  Uso de controladores, servicios y repositorios para una estructura limpia y escalable.
-
-- :floppy_disk: *Base de datos relacional*  
-  Gestión de usuarios, incidencias y su historial mediante MySQL.
-
-- :lock: *Sistema de autenticación*  
-  Inicio de sesión para estudiantes utilizando email y contraseña.
-
-- :bug: *Gestión de incidencias informáticas*  
-  Registro de incidencias por parte de los usuarios.  
-  Asignación de técnicos responsables.  
-  Cambios de estado: En espera, En trámite, Finalizado.
-
-- :technologist: *Gestión de personal técnico*  
-  Control y asignación de técnicos del área de soporte y sistemas.
-
-- :chart_with_upwards_trend: *Seguimiento de estado y trazabilidad*  
-  Historial completo de atención por incidencia.  
-  Visualización de avances en tiempo real.
-
-- :package: *Estructura modular y mantenible*  
-  Separación por capas: Modelo, Repositorio, Servicio, Controlador (backend).  
-  Organización clara de carpetas para el frontend en React.
+El sistema tiene como objetivo mejorar la eficacia en la gestión de incidencias, centralizar la información y generar reportes que permitan analizar patrones, tiempos de respuesta y áreas de oportunidad en el servicio de soporte técnico. También se busca optimizar la comunicación entre los usuarios que reportan los problemas y los técnicos encargados de su resolución, lo que resultará en una atención más ágil y en una administración más eficiente de los recursos tecnológicos de la organización. 📈
 
 
-## :gear: Requisitos del sistema
+## :mag_right: Tecnologías Usadas
 
-Para poder ejecutar los proyectos, se necesitan los siguientes requisitos:
-- :wrench: Backend:
-    - Java JDK 24 o modificar el [pom.xml](https://github.com/Renzito0637d/Proyect_Integrator_1/blob/main/ucvBackend/pom.xml#L30 "Aqui podras ver en donde modificar la version de tu JAVA") segun tus necesidades
-    - Maven 3.8+
-    - Base de datos MySQL 8+
-    - Spring Boot 3.x
-    - Postman (opcional, para pruebas de API)
-    - IDE recomendadas:
-        - IntelliJ IDEA
-        - Spring Tools Suite
-- :globe_with_meridians: Frontend:
-    - Node.js 18+
-    - npm o yarn
-    - Framework React 18+
-    - Editor recomendado:
-        - Visual Studio Code
-- :computer: Entorno de Desarrollo:
-    - Sistema operativo:
-        - Windows 10/11
-        - Linux
-        - macOS
-    - Navegadores web modernos:
-        - Chrome
-        - Firefox
-        - Edge
+- *Backend*:
+    - Spring Boot
+    - Maven
+        - *Dependencias*: 
+            - Spring security
+            - Spring web
+            - MySQL Driver
+            - Lombok
+            - All Jwt
+- *Frontend*:
+    - React
+    - Bootstrap
+        - *Dependencias*:
+            - axios
+            - react-dom
+            - react-scripts
+            - web-vitals
+
+- *Base de datos*:
+    - MySQL
+
+---
+## 🔹 1. instalacion para el proyecto
 
 > [!NOTE] 
 > ## :inbox_tray: Instalación
@@ -103,135 +76,59 @@ Para poder ejecutar los proyectos, se necesitan los siguientes requisitos:
 >       create DATABASE ucvincidencia;
 >       use ucvincidencia;         
 >       ~~~
+---
 
-## :clipboard: Requirimientos Funcionales (RF)
-| ID  | Descripción                                                                                              | Estado            |
-|-----|----------------------------------------------------------------------------------------------------------|-------------------|
-| RF1 | El aplicativo permite el acceso a los recursos mediante un login                                         | ✔️      |
-| RF2 | El aplicativo debe permitir la navegabilidad de los formularios mediante un menú                         | :heavy_check_mark:   |
-| RF3 | El aplicativo permite el registro de tipos de incidencias informáticas y realizar el mantenimiento correspondiente | :heavy_check_mark: |
-| RF4 | El aplicativo permite el registro de los empleados de la empresa y realizar el mantenimiento correspondiente | :heavy_check_mark: |
-| RF5 | El aplicativo permite el registro de áreas y realizar el mantenimiento correspondiente                   | :heavy_check_mark:     |
-| RF6 | El aplicativo permite el registro de una incidencia informática y realizar el mantenimiento correspondiente | :heavy_check_mark:     |
-| RF7 | El aplicativo permite asignar a un personal para la solución de la incidencia informática                 | :heavy_check_mark:   |
-| RF8 | El aplicativo permite al empleado registrar los detalles de la solución y observaciones de la incidencia solucionada | :heavy_check_mark:|
-| RF9 | El aplicativo permite realizar el seguimiento de la incidencia visualizando su estado: En proceso, Atendido, Derivado | :heavy_check_mark:        |
-| RF10| El aplicativo permite visualizar la lista de incidencias por rango de fechas                             | :heavy_check_mark:         |
 
-*Leyenda:*
-- :heavy_check_mark: Completado
-- :arrows_counterclockwise: En desarrollo
-- :hourglass_flowing_sand: En espera
-## :mag_right: Tecnologías Usadas
+## :clipboard: Roles y Funciones del equipo
+| ID  | Nombre del Rol       | Encargado 💡      | Función  📏                                                                 |
+|-----|----------------------|--------------------|-------------------------------------------------------------------------|
+| R1  | Programador Backend   | [Fernández Valenzuela, Jeffri Mathias]         | Encargado de la lógica de negocio, bases de datos y APIs.               |
+| R2  | Programador Frontend  | [Morales Dominguez, Jans Snider]         | Encargado del diseño y desarrollo de la interfaz de usuario (UI).      |
+| R3  | Programador Full-Stack| [Rodriguez Santa Cruz, André Martín]         | Encargado de integrar el frontend con el backend y trabajar en ambos.  |
+| R4  | Tester / QA           | [Virhuez Zavaleta, Giovanni Elber]         | Encargado de realizar pruebas, depuración y asegurar la calidad del código.|
 
-- *Backend*:
-    - Spring Boot
-    - Maven
-        - *Dependencias*: 
-            - Spring security
-            - Spring web
-            - MySQL Driver
-            - Lombok
-            - All Jwt
-- *Frontend*:
-    - React
-    - Bootstrap
-        - *Dependencias*:
-            - axios
-            - react-dom
-            - react-scripts
-            - web-vitals
 
-- *Base de datos*:
-    - MySQL
+---
+## 🚀 Flujo de trabajo en Git
 
-## Diagrama de clases
+Este documento explica los pasos básicos para trabajar con **Git** y **GitHub** de forma ordenada.
+---
+---
+> [!NOTE]  
+> ## 🔹 2. Inicialización del repositorio  
+> Para iniciar y configurar tu repositorio en Git y conectarlo con GitHub, sigue estos pasos:  
+> 
+> 1. Inicializa el repositorio y configura tus credenciales:  
+>    ~~~bash
+>    git init
+>    git config --global user.name "MoralesDominguezJansSnider"
+>    git config --global user.email "u22330117@utp.edu.pe"
+>    ~~~  
+> 
+> 2. Crea archivos básicos para el proyecto:  
+>    ~~~bash
+>    touch README.md
+>    touch .gitignore
+>    touch LICENSE
+>    ~~~  
+> 
+> 3. Revisa el estado y añade los cambios:  
+>    ~~~bash
+>    git status
+>    git add .
+>    ~~~  
+> 
+> 4. Realiza el primer commit:  
+>    ~~~bash
+>    git commit -m "primer commit de configuracion"
+>    ~~~  
+> 
+> 5. Conecta con el repositorio remoto y sube los cambios:  
+>    ~~~bash
+>    git remote add origin https://github.com/MathiasUX/HERRAMIENTAS-DE-DESARROLLO.git
+>    git push -u origin master
+>    ~~~  
+---
+## 🔹 3. IMAGEN DE REPOSITORIO
+![Flujo de trabajo en Git](IMAGENES/GIT.png)
 
-```mermaid
-classDiagram
-    class Incidencia {
-        - Id : int
-        - usuarioRegistrador : String
-        - descripcion : String
-        - departamento : Departamento
-        - area : String
-        - fechaRegistrada : LocalDateTime
-        - categoria : Categoria
-        - fechaIncidencia : LocalDate
-        - prioridad : String
-        + crearIncidencia() Incidencia
-        + listarIncidencias() void
-    }
-
-    class Usuario{
-        - Id : int
-        - nombres : String
-        - apellidos : String
-        - correo : String
-        - telefono : String
-        - nombreUsuario : String
-        - contraseña : String
-        - rol: number
-        - cargo : String
-        + agregarUsuarios () Usuario
-        + reselecionarCargo() Usuario
-    }
-
-    class Departamento{
-        + Id : int
-        + usuarioRegistrador : String
-        + nombre : String
-        + pabellon : String
-        + piso : int
-        + salon : String
-        + fechaRegistrada : LocalDateTime
-        + ambiente : String
-        + agregarDepa() Departamento
-        + actualizarDepa() Departamento
-        + eliminarDepa() Departamento
-    }
-
-    class Categoria {
-        + Id : int
-        + tipo : String
-        + nivelPrioridad : String
-        + categoria : String
-        + descripcion : String
-        + fechaRegistrada : LocalDateTime
-        + crearTipo() void
-        + ConfigurarCategoria() void
-    }
-
-    class AsignarPersonal {
-        - Id : int
-        - idIncidencia : Incidencia
-        - fechaRegistrada : LocalDateTime
-        - usuarioAsignador : String
-        - personal : Personal
-        - fechaSolucion : LocalDate
-        - estado : String
-        - descripcion : String
-        + selecionarIncidencia() void
-        + actualizarEstado() void
-    }
-
-    class Informe{
-        - Id : int
-        - idIncidencia : Incidencia
-        - acciones : String
-        - estado : String
-        - fechaResolucion : LocalDate
-        - personal : Personal
-        - descripcion : String
-        + crearInforme() void
-        + modificarInforme() void
-    }
-
-    Categoria "1..*" -->  Incidencia
-    Departamento --> "1..*" Incidencia
-    Usuario --> "1..1" Incidencia
-    Incidencia --> "1..1" AsignarPersonal
-    AsignarPersonal --> "1..1" Informe
-    Usuario --> "1..1" AsignarPersonal
-
-```
